@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
     return(        
-        <ul className="nav justify-content-center">
+        <ul className="nav justify-content-center navigation">
             <li>
                 <NavLink to={"/"} className={"header-badge link"}>Обо мне</NavLink>
             </li>
