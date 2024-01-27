@@ -48,10 +48,10 @@ const skillList = [
         skillList: [
             "Git (GitHub, GitLab)",
             "Unit-тесты (Jest)",
-            "Webpack",
-            "Модули Lint, Husky, AppVeyor",
+            "Webpack, Lint, Husky, AppVeyor",
+            "Figma, Photoshop",
             "Bootstrap 5, axios, luxon",
-            "Kaiten, b24, swagger"
+            "Kaiten, B24, Swagger"
         ]
     }
 ]
@@ -66,7 +66,7 @@ const portfolioList = [
     {
         title: "Учебный проект",
         img: site_12,
-        description: "Применяется React, Redux-toolkit, Redux-sagas, TypeScript.",
+        description: "Применяется React, Redux-toolkit, Redux-sagas, TypeScript. Всё API сделал на saga. С redux-thunk тоже работал в других проектах, но они не красивые, потому сюда не добавлял :)",
         link: "https://github.com/MarkinAO/ra-diplom-shoe-store"
     },
     {
