@@ -2,6 +2,7 @@ import Header from "../../widgets/Header";
 import Footer from "../../widgets/Footer";
 import Navigation from "../../widgets/Navigation";
 import { Outlet } from "react-router-dom";
+import ScrollUp from "../../shared/ui/ScrollUp";
 
 export default function PageWrap() {
     return(
@@ -14,7 +15,8 @@ export default function PageWrap() {
                         <Outlet />
                     </div>
                 </div>
-            </main>            
+            </main>
+            <ScrollUp />
             <Footer />
         </>
     )
