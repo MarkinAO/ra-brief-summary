@@ -22,6 +22,14 @@ export default function Navigation() {
             </li>
             <li>
                 <NavLink 
+                    to={"/soft-skills"} 
+                    className={"header-badge link"} 
+                    onClick={() => autoScroll()}>
+                        Soft skills
+                </NavLink>
+            </li>
+            <li>
+                <NavLink 
                     to={"/portfolio"} 
                     className={"header-badge link"} 
                     onClick={() => autoScroll()}>
