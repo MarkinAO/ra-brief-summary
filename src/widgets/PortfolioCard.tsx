@@ -12,7 +12,9 @@ export default function PortfolioCard({title, img, description, link, link2}: IP
     return(
         <div className="col-auto mb-3 w-360" key={uuidv4()}>                    
             <div className="card bg-dark border border-secondary m-a h-100">
-                <img src={img} className="card-img-top" alt={title}/>
+                <div className="card-img-wrap">
+                    <img src={img} className="card-img-top card-img-custom" alt={title}/>
+                </div>                
                 <div className="card-body c-2">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text text-white">{description}

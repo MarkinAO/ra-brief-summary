@@ -10,11 +10,14 @@ import site_10 from "../assets/site_10.webp";
 import site_11 from "../assets/site_11.webp";
 import site_12 from "../assets/site_12.webp";
 import site_13 from "../assets/site_13.webp";
+import site_14 from "../assets/site_14.webp";
+import site_15 from "../assets/site_15.webp";
 
 const skillList = [
     {
         title: "Ключевые",
         skillList: [
+            "Next",
             "React",
             "React Router",
             "Redux Toolkit",
@@ -47,6 +50,7 @@ const skillList = [
         title: "Дополнительно",
         skillList: [
             "Git (GitHub, GitLab)",
+            "Git flow",
             "FSD-архитектура",
             "Unit-тесты (Jest)",
             "Webpack, Lint, Husky, AppVeyor",
@@ -85,6 +89,12 @@ const softSkillList = [
 const portfolioList = [
     {
         title: "Коммерческий проект",
+        img: site_15,
+        description: "Проект Десница. Сейчас в процессе разработки. Здесь я выполняю роли frontend-разработчика и frontend-teamlead. Работа с сервером по REST API, bugfix. Применяется Next, React, Redux-toolkit, TypeScript.",
+        link: "https://www.figma.com/file/mgU4lZ4k4FnOFeLmuyTPfn/%D0%94%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B0?type=design&node-id=0-1&mode=design&t=AjV8DkwRauTp2V0S-0"
+    },
+    {
+        title: "Коммерческий проект",
         img: site_13,
         description: "Работа в команде разработчиков. Разрабатывал отдельные виджеты, работа с сервером по API, bugfix. Применяется React, Redux-toolkit, TypeScript. Отдельно выделил бы работу в git на совместных проектах, в онлайншколах этого не хватает.",
         link: "https://wecarefondation.com/"
@@ -94,6 +104,12 @@ const portfolioList = [
         img: site_12,
         description: "Применяется React, Redux-toolkit, Redux-sagas, TypeScript. Всё API сделал на saga. С redux-thunk тоже работал в других проектах, но они не красивые, потому сюда не добавлял :)",
         link: "https://github.com/MarkinAO/ra-diplom-shoe-store"
+    },
+    {
+        title: "Pet-проект",
+        img: site_14,
+        description: "Сайт-резюме. Применяется React, TypeScript, Bootstrap. Архитектура FSD. ",
+        link: "https://github.com/MarkinAO/ra-brief-summary"
     },
     {
         title: "Коммерческий проект",

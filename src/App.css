@@ -27,6 +27,7 @@ body {
 
 .title {
   font-size: 80px;
+  text-decoration: none;
 }
 
 .header-badge {
@@ -130,6 +131,14 @@ a:hover {
   cursor: pointer;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+.card-img-wrap {
+  height: 165px;
+}
+
+.card-img-custom {
+  height: 165px;
 }
 
 .hidden {

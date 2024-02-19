@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
     return(
         <header className="header p-3">
@@ -14,7 +16,9 @@ export default function Header() {
                 <div className="row">
                     <div className="col-12 col-md">                    
                         <h1 className="text-center display-1 text-white">
-                            <strong className="title fw-bold">Резюме</strong>
+                            <Link to={"/"} className="title fw-bold">
+                                <strong>Резюме</strong>
+                            </Link>                            
                         </h1>
                         <div className="bg-2 header-badge">JS</div>
                         <br/>
