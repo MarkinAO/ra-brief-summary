@@ -90,13 +90,13 @@ const portfolioList = [
     {
         title: "Коммерческий проект",
         img: site_15,
-        description: "Проект Десница. Сейчас в процессе разработки. Здесь я выполняю роли frontend-разработчика и frontend-teamlead. Работа с сервером по REST API, bugfix. Применяется Next, React, Redux-toolkit, TypeScript.",
+        description: "Проект Десница. Организация: благотворительный проект GoD. Сейчас в процессе разработки. Здесь я выполняю роли frontend-разработчика и frontend-teamlead. Работа с сервером по REST API, bugfix. Применяется Next, React, Redux-toolkit, TypeScript.",
         link: "https://www.figma.com/file/mgU4lZ4k4FnOFeLmuyTPfn/%D0%94%D0%B5%D1%81%D0%BD%D0%B8%D1%86%D0%B0?type=design&node-id=0-1&mode=design&t=AjV8DkwRauTp2V0S-0"
     },
     {
         title: "Коммерческий проект",
         img: site_13,
-        description: "Работа в команде разработчиков. Разрабатывал отдельные виджеты, работа с сервером по API, bugfix. Применяется React, Redux-toolkit, TypeScript. Отдельно выделил бы работу в git на совместных проектах, в онлайншколах этого не хватает.",
+        description: "Проект We Care. Организация: благотворительный проект GoD. Работа в команде разработчиков. Разрабатывал отдельные виджеты, работа с сервером по API, bugfix. Применяется React, Redux-toolkit, TypeScript. Отдельно выделил бы работу в git на совместных проектах, в онлайншколах этого не хватает.",
         link: "https://wecarefondation.com/"
     },
     {
