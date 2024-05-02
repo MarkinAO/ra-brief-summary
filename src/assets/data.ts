@@ -12,6 +12,7 @@ import site_12 from "../assets/site_12.webp";
 import site_13 from "../assets/site_13.webp";
 import site_14 from "../assets/site_14.webp";
 import site_15 from "../assets/site_15.webp";
+import site_16 from "../assets/site_16.webp";
 
 const skillList = [
     {
@@ -98,6 +99,13 @@ const portfolioList = [
         img: site_13,
         description: "Проект We Care. Организация: благотворительный проект GoD. Работа в команде разработчиков. Разрабатывал отдельные виджеты, работа с сервером по API, bugfix. Применяется React, Redux-toolkit, TypeScript. Отдельно выделил бы работу в git на совместных проектах, в онлайншколах этого не хватает.",
         link: "https://wecarefondation.com/"
+    },
+    {
+        title: "Проект - тестовое задание",
+        img: site_16,
+        description: "Проект Каталог игр. Технологии: React, React-router, TypeScript, Redux-toolkit, Sass. Реализован каталог игр с возможностью поиска и фильтрации по тегам. На странице игры представлены скриншоты и подробная информация об игре. Реализован поиск по названию игры (только на английском). Фильтрация результатов реализована с помощью тегов под строкой поиска. Данные берутся с API сервера RAWG. ",
+        link: "https://games-catalog.onrender.com/",
+        link2: "https://github.com/MarkinAO/games-catalog"
     },
     {
         title: "Учебный проект",
