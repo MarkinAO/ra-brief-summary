@@ -159,6 +159,9 @@ a:hover {
     width: 100%;
     text-align: center;
   }
+  .w-360 {
+    max-width: 320px;
+  }
 }
 
 .slide-in-left {
