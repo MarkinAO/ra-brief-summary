@@ -10,19 +10,19 @@ body {
 }
 
 .bg-1 {
-  background-color: #75825A;
+  background-color: #75825a;
 }
 
 .bg-2 {
-  background-color: #EFCD76;
+  background-color: #efcd76;
 }
 
 .c-1 {
-  color: #75825A;
+  color: #75825a;
 }
 
 .c-2 {
-  color: #EFCD76;
+  color: #efcd76;
 }
 
 .title {
@@ -49,7 +49,7 @@ body {
 }
 
 .messenger_wa {
-  background-image: url(./shared/assets/wa.webp);    
+  background-image: url(./shared/assets/wa.webp);
 }
 
 .messenger_tg {
@@ -77,12 +77,12 @@ a:hover {
 }
 
 .btn:hover {
-  box-shadow: 0 0 10px 1px #EFCD76;
-  background-color: #EFCD76;
+  box-shadow: 0 0 10px 1px #efcd76;
+  background-color: #efcd76;
 }
 
 .card:hover {
-  box-shadow: 0 0 10px 1px #75825A;
+  box-shadow: 0 0 10px 1px #75825a;
 }
 
 .link {
@@ -98,14 +98,14 @@ a:hover {
 
 .active {
   color: #000000;
-  background-color: #EFCD76;
+  background-color: #efcd76;
   box-shadow: none;
   transform: all 3s;
 }
 
 .active:hover {
   color: inherit;
-  box-shadow: 0 0 10px 1px #EFCD76;
+  box-shadow: 0 0 10px 1px #efcd76;
 }
 
 .w-360 {
@@ -126,12 +126,12 @@ a:hover {
 
 .skroll-up_arrow {
   display: inline-block;
-  position: fixed;  
+  position: fixed;
   right: 75px;
   bottom: 75px;
   padding: 12px;
-  border: solid #EFCD76;
-  border-width: 0 12px 12px 0;  
+  border: solid #efcd76;
+  border-width: 0 12px 12px 0;
   cursor: pointer;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
@@ -155,7 +155,7 @@ a:hover {
     width: 65%;
     margin: 0 auto;
   }
-  .link{
+  .link {
     width: 100%;
     text-align: center;
   }
@@ -168,14 +168,19 @@ a:hover {
   animation: slide-in-left 1s ease-in-out forwards;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-color: #efcd76;
+}
+
 @keyframes slide-in-left {
   0% {
-      transform: translateX(-600%);
-      opacity: 0;
+    transform: translateX(-600%);
+    opacity: 0;
   }
   100% {
-      transform: translateX(0);
-      opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -185,12 +190,12 @@ a:hover {
 
 @keyframes slide-in-right {
   0% {
-      transform: translateX(600%);
-      opacity: 0;
+    transform: translateX(600%);
+    opacity: 0;
   }
   100% {
-      transform: translateX(0);
-      opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -200,11 +205,11 @@ a:hover {
 
 @keyframes slide-up {
   0% {
-      transform: translateY(50px);
-      opacity: 0;
+    transform: translateY(50px);
+    opacity: 0;
   }
   100% {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }

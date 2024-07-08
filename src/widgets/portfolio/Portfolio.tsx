@@ -3,10 +3,9 @@ import { portfolioList } from "@shared/assets/data";
 import { useStore } from "@shared/model";
 import { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectCards } from "swiper/modules";
+import { Autoplay, Navigation, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export function Portfolio() {
@@ -20,12 +19,23 @@ export function Portfolio() {
   }, []);
 
   const swiperParams = {
-    modules: [Autoplay, EffectCards],
+    modules: [Autoplay, Navigation, EffectCoverflow],
     spaceBetween: 0,
-    effect: "cards",
+    effect: "coverflow",
     centeredSlides: true,
+    loop: true,
+    navigation: true,
+    slidesPerView: 1,
     autoplay: {
       delay: 2500,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
     },
   };
 
