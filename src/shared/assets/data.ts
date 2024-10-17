@@ -82,7 +82,7 @@ const portfolioList = [
     title: "Коммерческий проект",
     img: site_18,
     description:
-      "Проект страница отдела кадров. Организация: Softintermob LLC. Без взаимодействия с сервером. Применяется React, TypeScript, Zustand, Zod, React-hook-form, слыйдер - Swiper",
+      "Проект страница отдела кадров. Организация: Softintermob LLC. Без взаимодействия с сервером. Применяется React, TypeScript, Zustand, Zod, React-hook-form, слайдер - Swiper",
       link: "https://softintermob-job.onrender.com/",
       link2: "https://github.com/MarkinAO/softintermob-job",
   },
