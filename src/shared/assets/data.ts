@@ -14,13 +14,14 @@ import site_14 from "./site_14.webp";
 import site_15 from "./site_15.webp";
 import site_16 from "./site_16.webp";
 import site_17 from "./site_17.webp";
+import site_18 from "./site_18.webp";
 
 const skillList = [
   {
     title: "Ключевые",
     skillList: [
-      "Next",
-      "React (Router)",
+      "Next (zod, Tailwind, SWR)",
+      "React (Router, react-hook-form)",
       "Redux (Toolkit, Saga, RTK Query)",
       "Zustand",
       "TypeScript",
@@ -45,7 +46,7 @@ const skillList = [
       "FSD-архитектура",
       "Webpack, Lint",
       "Figma, Photoshop",
-      "Bootstrap 5",
+      "Tailwind, Bootstrap 5",
       "Kaiten, B24, Swagger",
     ],
   },
@@ -77,6 +78,14 @@ const softSkillList = [
 ];
 
 const portfolioList = [
+  {
+    title: "Коммерческий проект",
+    img: site_18,
+    description:
+      "Проект страница отдела кадров. Организация: Softintermob LLC. Без взаимодействия с сервером. Применяется React, TypeScript, Zustand, Zod, React-hook-form, слыйдер - Swiper",
+      link: "https://softintermob-job.onrender.com/",
+      link2: "https://github.com/MarkinAO/softintermob-job",
+  },
   {
     title: "Коммерческий проект",
     img: site_15,
