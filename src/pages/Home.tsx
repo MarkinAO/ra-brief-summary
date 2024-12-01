@@ -29,41 +29,21 @@ export default function Home() {
             </div>
             <div className="row justify-content-center py-4 text-white slide-up">
               <div className="col-xl-4 col-md-12">
-                <p>Привет! Меня зовут Александр. Я из Томска)</p>
+                <p>Привет! Меня зовут Александр. Я из Томска (+4 часа по мск)</p>
                 <p>
-                  На данный момент я работаю в управлении проектами ПИР.
-                  Занимаюсь этим уже 8-й год. Прошел путь от
-                  инженера-проектировщика до руководителя направления
-                  проектирования.
+                  На данный момент (с августа 2024) я работаю в компании{" "}
+                  { <a href="https://tltpro.org/" className={"c-2"}>TLT PRO</a> }{" "}Frontend-разработчиком. В мои задачи входит разработка отдельных компонентов, их увязка с backend, взаимодействие с тестировщиками.
+                  Работаем в стеке TypeScript, NextJS, Zustand, React Hook Form и Zod.                  
                 </p>
               </div>
               <div className="col-xl-4 col-md-12">
                 <p>
-                  Проходил стажировку в благотворительных проектах команды{" "}
+                  Ранее работал на проектах команды{" "}
                   {
                     <a href="https://guild-of-developers.ru/" className={"c-2"}>
-                      GoD
+                      Guild of developers
                     </a>
-                  }
-                  . Стек Next, React, Redux-toolkit, RTK Query. Работаем по{" "}
-                  {
-                    <a
-                      href="https://tropical-railway-c8b.notion.site/GIT-FLOW-8f6aa0f2e10c43cab89ccba9311dd713"
-                      className={"c-2"}
-                    >
-                      git flow
-                    </a>
-                  }
-                  . Task manager -{" "}
-                  {
-                    <a
-                      href="https://rezervpr.kaiten.ru/login?redirectPath=%2F"
-                      className={"c-2"}
-                    >
-                      Kaiten
-                    </a>
-                  }
-                  .
+                  }{" "}Frontend-разработчиком (с октября 2023 по июль 2024). Занимался разработкой компонентов в стеке Next, React, Redux-toolkit, RTK Query. Работали в команде frontend, backend и тестировщики.
                 </p>
                 <p>Выполнял несколько задач по верстке на фрилансе.</p>
               </div>
@@ -78,7 +58,7 @@ export default function Home() {
             </div>            
             <Portfolio />
             <Skills />
-            <SoftSkills />
+            {/* <SoftSkills /> */}
           </div>
         </div>
       </main>

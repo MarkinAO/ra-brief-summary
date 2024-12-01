@@ -7,6 +7,7 @@ export function Footer() {
             <h3>Контакты</h3>
             <h6>Маркин Александр</h6>
             <h6>+7-952-809-1242</h6>
+            <h6><a href="mailto:habar77@yandex.ru">habar77@yandex.ru</a></h6>
             <ul className="list-unstyled text-small d-flex justify-content-center">
               <li>
                 <a
