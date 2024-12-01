@@ -58,7 +58,7 @@ export default function Home() {
             </div>            
             <Portfolio />
             <Skills />
-            {/* <SoftSkills /> */}
+            <SoftSkills />
           </div>
         </div>
       </main>
