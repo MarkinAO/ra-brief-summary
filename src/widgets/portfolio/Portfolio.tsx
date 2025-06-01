@@ -3,7 +3,7 @@ import { portfolioList } from "@shared/assets/data";
 import { useStore } from "@shared/model";
 import { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, EffectCoverflow } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
@@ -19,7 +19,7 @@ export function Portfolio() {
   }, []);
 
   const swiperParams = {
-    modules: [Autoplay, Navigation, EffectCoverflow],
+    modules: [Autoplay, Navigation],
     spaceBetween: 0,
     effect: "coverflow",
     centeredSlides: true,
